@@ -1,0 +1,27 @@
+https://ontariotechu.ca/
+
+IP Address: 205.211.180.149
+Geolocation: CA (Canada), ON, Ontario, L1H Oshawa
+
+PING 205.211.180.149 (205.211.180.149) 56(84) bytes of data.
+64 bytes from 205.211.180.149: icmp_seq=1 ttl=58 time=2.80 ms
+64 bytes from 205.211.180.149: icmp_seq=2 ttl=58 time=1.89 ms
+64 bytes from 205.211.180.149: icmp_seq=3 ttl=58 time=1.97 ms
+64 bytes from 205.211.180.149: icmp_seq=4 ttl=58 time=1.86 ms
+64 bytes from 205.211.180.149: icmp_seq=5 ttl=58 time=1.87 ms
+64 bytes from 205.211.180.149: icmp_seq=6 ttl=58 time=1.91 ms
+64 bytes from 205.211.180.149: icmp_seq=7 ttl=58 time=1.89 ms
+64 bytes from 205.211.180.149: icmp_seq=8 ttl=58 time=1.92 ms
+64 bytes from 205.211.180.149: icmp_seq=9 ttl=58 time=1.83 ms
+64 bytes from 205.211.180.149: icmp_seq=10 ttl=58 time=1.97 ms
+64 bytes from 205.211.180.149: icmp_seq=11 ttl=58 time=1.93 ms
+64 bytes from 205.211.180.149: icmp_seq=12 ttl=58 time=1.83 ms
+64 bytes from 205.211.180.149: icmp_seq=13 ttl=58 time=1.98 ms
+64 bytes from 205.211.180.149: icmp_seq=14 ttl=58 time=1.97 ms
+64 bytes from 205.211.180.149: icmp_seq=15 ttl=58 time=1.78 ms
+64 bytes from 205.211.180.149: icmp_seq=16 ttl=58 time=1.91 ms
+64 bytes from 205.211.180.149: icmp_seq=17 ttl=58 time=1.99 ms
+64 bytes from 205.211.180.149: icmp_seq=18 ttl=58 time=1.81 ms
+64 bytes from 205.211.180.149: icmp_seq=19 ttl=58 time=2.09 ms
+64 bytes from 205.211.180.149: icmp_seq=20 ttl=58 time=1.80 ms
+64 bytes from 205.211.180.149: icmp_seq=21 ttl=58 time=1.90 ms
