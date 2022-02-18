@@ -1,0 +1,36 @@
+root@comp-3134:~# tcpdump -i eth0 -c 30
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+02:27:30.540423 IP comp-3134.ssh > 162.243.190.66.56341: Flags [P.], seq 4129016295:4129016423, ack 125673019, win 502, options [nop,nop,TS val 200593673 ecr 1359535398], length 128
+02:27:30.540499 IP comp-3134.ssh > 162.243.190.66.56341: Flags [P.], seq 128:320, ack 1, win 502, options [nop,nop,TS val 200593673 ecr 1359535398], length 192
+02:27:30.540601 IP comp-3134.ssh > 162.243.190.66.56341: Flags [P.], seq 320:384, ack 1, win 502, options [nop,nop,TS val 200593673 ecr 1359535398], length 64
+02:27:30.540943 IP 162.243.190.66.56341 > comp-3134.ssh: Flags [.], ack 128, win 501, options [nop,nop,TS val 1359535411 ecr 200593673], length 0
+02:27:30.541009 IP 162.243.190.66.56341 > comp-3134.ssh: Flags [.], ack 320, win 501, options [nop,nop,TS val 1359535411 ecr 200593673], length 0
+02:27:30.541039 IP 162.243.190.66.56341 > comp-3134.ssh: Flags [.], ack 384, win 501, options [nop,nop,TS val 1359535411 ecr 200593673], length 0
+02:27:30.541644 IP comp-3134.37492 > 67.207.67.3.domain: 30125+ [1au] PTR? 66.190.243.162.in-addr.arpa. (56)
+02:27:30.541700 IP comp-3134.44101 > 67.207.67.3.domain: 2909+ [1au] PTR? 66.190.243.162.in-addr.arpa. (56)
+02:27:30.541742 IP comp-3134.54232 > 67.207.67.3.domain: 58769+ [1au] PTR? 66.190.243.162.in-addr.arpa. (56)
+02:27:30.560252 IP 67.207.67.3.domain > comp-3134.54232: 58769 NXDomain 0/1/1 (123)
+02:27:30.560446 IP comp-3134.54232 > 67.207.67.3.domain: 58769+ PTR? 66.190.243.162.in-addr.arpa. (45)
+02:27:30.578744 IP 67.207.67.3.domain > comp-3134.54232: 58769 NXDomain 0/1/0 (112)
+02:27:30.621487 IP 67.207.67.3.domain > comp-3134.37492: 30125 NXDomain 0/1/1 (123)
+02:27:30.621730 IP comp-3134.37492 > 67.207.67.3.domain: 30125+ PTR? 66.190.243.162.in-addr.arpa. (45)
+02:27:30.622014 IP 67.207.67.3.domain > comp-3134.37492: 30125 NXDomain 0/1/0 (112)
+02:27:30.625948 IP scanner-11.ch1.censys-scanner.com.39905 > comp-3134.1452: Flags [S], seq 336675642, win 1024, options [mss 1460], length 0
+02:27:30.625966 IP comp-3134.1452 > scanner-11.ch1.censys-scanner.com.39905: Flags [R.], seq 0, ack 336675643, win 0, length 0
+02:27:30.711721 IP 67.207.67.3.domain > comp-3134.44101: 2909 NXDomain 0/1/1 (123)
+02:27:30.711899 IP comp-3134.44101 > 67.207.67.3.domain: 2909+ PTR? 66.190.243.162.in-addr.arpa. (45)
+02:27:30.712948 IP 67.207.67.3.domain > comp-3134.44101: 2909 NXDomain 0/1/0 (112)
+02:27:30.713522 IP comp-3134.39145 > 67.207.67.3.domain: 40056+ [1au] PTR? 122.144.182.147.in-addr.arpa. (57)
+02:27:30.713563 IP comp-3134.60747 > 67.207.67.3.domain: 45537+ [1au] PTR? 122.144.182.147.in-addr.arpa. (57)
+02:27:30.713590 IP comp-3134.41796 > 67.207.67.3.domain: 35556+ [1au] PTR? 122.144.182.147.in-addr.arpa. (57)
+02:27:30.731452 IP 67.207.67.3.domain > comp-3134.60747: 45537 NXDomain 0/1/1 (124)
+02:27:30.731631 IP comp-3134.60747 > 67.207.67.3.domain: 45537+ PTR? 122.144.182.147.in-addr.arpa. (46)
+02:27:30.734222 IP 67.207.67.3.domain > comp-3134.39145: 40056 NXDomain 0/1/1 (124)
+02:27:30.734397 IP comp-3134.39145 > 67.207.67.3.domain: 40056+ PTR? 122.144.182.147.in-addr.arpa. (46)
+02:27:30.735174 IP 67.207.67.3.domain > comp-3134.39145: 40056 NXDomain 0/1/0 (113)
+02:27:30.782755 IP 67.207.67.3.domain > comp-3134.60747: 45537 NXDomain 0/1/0 (113)
+02:27:30.782755 IP 67.207.67.3.domain > comp-3134.41796: 35556 NXDomain 0/1/1 (124)
+30 packets captured
+62 packets received by filter
+18 packets dropped by kernel

@@ -1,0 +1,13 @@
+root@comp-3134:~# # tcpdump -i eth0
+root@comp-3134:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+02:31:47.922185 IP comp-3134.ssh > 162.243.190.66.56341: Flags [P.], seq 4129021399:4129021527, ack 125673371, win 502, options [nop,nop,TS val 200851055 ecr 1359792790], length 128
+02:31:47.922230 IP comp-3134.ssh > 162.243.190.66.56341: Flags [P.], seq 128:320, ack 1, win 502, options [nop,nop,TS val 200851055 ecr 1359792790], length 192
+02:31:47.922318 IP comp-3134.ssh > 162.243.190.66.56341: Flags [P.], seq 320:384, ack 1, win 502, options [nop,nop,TS val 200851055 ecr 1359792790], length 64
+02:31:47.922617 IP 162.243.190.66.56341 > comp-3134.ssh: Flags [.], ack 128, win 501, options [nop,nop,TS val 1359792793 ecr 200851055], length 0
+02:31:47.922691 IP 162.243.190.66.56341 > comp-3134.ssh: Flags [.], ack 320, win 501, options [nop,nop,TS val 1359792793 ecr 200851055], length 0
+5 packets captured
+34 packets received by filter
+0 packets dropped by kernel
+root@comp-3134:~# 
